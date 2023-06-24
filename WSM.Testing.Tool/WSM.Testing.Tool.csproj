@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>0.0.1</Version>
+		<ApplicationIcon>console.ico</ApplicationIcon>
+		<PackageId>WSM.Testing.Tool</PackageId>
+		<Title>WSM Testing Tool To Make Console App With Test Easliy</Title>
+		<Authors>wisam</Authors>
+		<Company>WSM</Company>
+		<Description>This Package For Testing With Console
+If You Want To Test Your App Easly
+Or You Want To Make App And You
+Want To Test Somthing Create New Project
+And Add This Package
+And Just Use
+
+```c#
+Test.WriteLine("Hello"); // Write On Console 'Hello'
+var value = Test.GetValue("Write Number"); // Write On Console 'Write Number : '
+// Also Return What In ReadLine
+
+Also There To May Things
+```
+
+You Can Support Me With Your Feedback
+</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="console.ico" />
+	</ItemGroup>
+
+</Project>
