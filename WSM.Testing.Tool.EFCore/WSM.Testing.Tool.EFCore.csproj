@@ -1,20 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
-		<TargetFramework>netstandard2.1</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
 		<Version>0.0.1</Version>
 		<ApplicationIcon>console.ico</ApplicationIcon>
 		<PackageId>WSM.Testing.Tool</PackageId>
 		<Title>WSM Testing Tool To Make Console App With Test Easliy</Title>
 		<Authors>wisam</Authors>
 		<Company>WSM</Company>
-		<Description>This Package For Testing With Console Also Find Out Other Testing Tools On Here https://www.nuget.org/profiles/wsm</Description>
+		<Description>This Package For Testing With EFCore Also Find Out Other Testing Tools On Here https://www.nuget.org/profiles/wsm</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Content Include="console.ico" />
+		<Content Include="console.ico" />
 	</ItemGroup>
-
 </Project>
