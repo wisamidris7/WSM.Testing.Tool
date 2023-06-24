@@ -12,7 +12,15 @@ var value = Test.GetValue("Write Number"); // Write On Console 'Write Number : '
 // Also GetValue Return What In ReadLine
 
 ```
-
+# How To Install Package
+### On Package Manager
+```
+Install-Package WSM.Testing.Tool
+```
+### On CLI
+```
+dotnet add package WSM.Testing.Tool
+```
 Also There To Many Features
 
 # But Your Feedback Here
