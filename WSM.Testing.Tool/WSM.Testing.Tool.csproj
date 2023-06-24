@@ -9,10 +9,18 @@
 		<Authors>wisam</Authors>
 		<Company>WSM</Company>
 		<Description>This Package For Testing With Console Also Find Out Other Testing Tools On Here https://www.nuget.org/profiles/wsm</Description>
+		<PackageIcon>console-64.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <Content Include="console.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="console-64.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>

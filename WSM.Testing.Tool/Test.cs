@@ -24,7 +24,14 @@ namespace WSM.Testing.Tool
         {
             Console.WriteLine(value);
         }
-
+        public void Write(params object[] values)
+        {
+            Console.Write(values);
+        }
+        public void WriteLine(params object[] values)
+        {
+            Console.WriteLine(values);
+        }
         public void Write(object value)
         {
             Console.Write($"{value}");
