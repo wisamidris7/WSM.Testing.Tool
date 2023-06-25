@@ -19,7 +19,7 @@ namespace WSM.Testing.Tool.EFCore.DbContexts
         public DbSet<Section> Sections { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("WSM.Testing.Tool.EFCore/Databases/test.db");
+            optionsBuilder.UseSqlite("C://WSM.Testing.Tool.EFCore/Databases/test.db");
             base.OnConfiguring(optionsBuilder);
         }
         public virtual void Init()
