@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Version>0.0.6</Version>
+		<PackageId>WSM.Testing.Tool.EFCore</PackageId>
+		<Title>WSM Testing Tool To Make Console App With Test Easliy EFCore</Title>
+		<Authors>wisam</Authors>
+		<Company>WSM</Company>
+		<Description>This Package For Testing With Console Also Find Out Other Testing Tools On Here https://www.nuget.org/profiles/wsm</Description>
+		<PackageIcon>console-64.png</PackageIcon>
+		<Copyright>All Copyrights Saved For WSM 2023</Copyright>
+		<PackageProjectUrl>https://github.com/wisamidris7/WSM.Testing.Tool</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/wisamidris7/WSM.Testing.Tool</RepositoryUrl>
+		<RepositoryType>https://github.com/wisamidris7/WSM.Testing.Tool.git</RepositoryType>
+		<PackageTags>testing;wsm;console;easy;hard;test;tool;for;old;new;wisam;developer;unit testing c#;unit testing tutorial;unit testing;how to write unit tests in c#;c# unit testing;programming with mosh;black box testing;.net unit testing;testing;autromationtesting;automation testing;resharper;create a unit test c#;mstest;visual studio;c# unit test example;best practices;learn c#;visual studio editions;code with mosh;mocking;executeautomation;development;.net;nunit;selenium;best;csharp testing with wisam;console testing;best console testing tool ever;you should try it;ef core dbcontextoptions example;entity framework core dbcontext example;entity framework core add dbcontext;entity framework core dbcontext constructor;entity framework core dbcontext best practices;entity framework core code first dbcontext;ef core dbcontext;dbcontext example in ef core;ef core dbset properties;learning;databases;asp.net core web api;#testdatabase;learn asp.net core web api;#efcore;#aspdotnetcoretutorial;#aspdotnetcore;unit testing;#entityframeworkcore;#testcases;#sqlite;in memory;repository;xunit;#xunit</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.8" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="console-64.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
+		
