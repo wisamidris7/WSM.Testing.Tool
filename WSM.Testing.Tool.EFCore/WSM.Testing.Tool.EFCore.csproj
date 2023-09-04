@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
-		<Version>0.0.6</Version>
+		<Version>0.0.8</Version>
 		<PackageId>WSM.Testing.Tool.EFCore</PackageId>
 		<Title>WSM Testing Tool To Make Console App With Test Easliy EFCore</Title>
 		<Authors>wisam</Authors>

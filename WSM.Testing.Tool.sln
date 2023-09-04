@@ -5,7 +5,15 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSM.Testing.Tool", "WSM.Testing.Tool\WSM.Testing.Tool.csproj", "{93AA21A7-B95D-4C1D-B5EF-C8A19FDFDDEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSM.Testing.Tool.EFCore", "WSM.Testing.Tool.EFCore\WSM.Testing.Tool.EFCore.csproj", "{11AB1BF6-DD19-450B-8423-C9D29356EECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSM.Testing.Tool.EFCore", "WSM.Testing.Tool.EFCore\WSM.Testing.Tool.EFCore.csproj", "{11AB1BF6-DD19-450B-8423-C9D29356EECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{24EFABE2-2B29-4A0B-9B59-C827FF28169E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSM.Testing.Tool.Sample1", "samples\WSM.Testing.Tool.Sample1\WSM.Testing.Tool.Sample1.csproj", "{23789B3B-2B4D-441A-8E21-3AF04F363F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSM.Testing.Tool.Mapster", "WSM.Testing.Tool.Mapster\WSM.Testing.Tool.Mapster.csproj", "{FB4D79BC-CE67-445B-9FA9-D9B9F9FC638A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSM.Testing.Tool.Models", "WSM.Testing.Tool.Models\WSM.Testing.Tool.Models.csproj", "{4736A998-6536-4662-BE13-0363E0A454B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,24 @@ Global
 		{11AB1BF6-DD19-450B-8423-C9D29356EECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AB1BF6-DD19-450B-8423-C9D29356EECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AB1BF6-DD19-450B-8423-C9D29356EECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23789B3B-2B4D-441A-8E21-3AF04F363F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23789B3B-2B4D-441A-8E21-3AF04F363F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23789B3B-2B4D-441A-8E21-3AF04F363F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23789B3B-2B4D-441A-8E21-3AF04F363F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4D79BC-CE67-445B-9FA9-D9B9F9FC638A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4D79BC-CE67-445B-9FA9-D9B9F9FC638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4D79BC-CE67-445B-9FA9-D9B9F9FC638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4D79BC-CE67-445B-9FA9-D9B9F9FC638A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4736A998-6536-4662-BE13-0363E0A454B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4736A998-6536-4662-BE13-0363E0A454B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4736A998-6536-4662-BE13-0363E0A454B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4736A998-6536-4662-BE13-0363E0A454B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23789B3B-2B4D-441A-8E21-3AF04F363F90} = {24EFABE2-2B29-4A0B-9B59-C827FF28169E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {202B267E-3B3C-4A8F-A0A0-E9CE9CE0ABCA}

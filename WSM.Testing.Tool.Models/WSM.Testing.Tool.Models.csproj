@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Version>0.0.6</Version>
+		<PackageId>WSM.Testing.Tool.Models</PackageId>
+		<Title>WSM Testing Tool To Make Console App With Test Easliy</Title>
+		<Authors>wisam</Authors>
+		<Company>WSM</Company>
+		<Description>This Package For Testing With Console Also Find Out Other Testing Tools On Here https://www.nuget.org/profiles/wsm</Description>
+		<PackageIcon>console-64.png</PackageIcon>
+		<Copyright>All Copyrights Saved For WSM 2023</Copyright>
+		<PackageProjectUrl>https://github.com/wisamidris7/WSM.Testing.Tool</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/wisamidris7/WSM.Testing.Tool</RepositoryUrl>
+		<RepositoryType>https://github.com/wisamidris7/WSM.Testing.Tool.git</RepositoryType>
+		<PackageTags>testing;wsm;console;easy;hard;test;tool;for;old;new;wisam;developer;unit testing c#;unit testing tutorial;unit testing;how to write unit tests in c#;c# unit testing;programming with mosh;black box testing;.net unit testing;testing;autromationtesting;automation testing;resharper;create a unit test c#;mstest;visual studio;c# unit test example;best practices;learn c#;visual studio editions;code with mosh;mocking;executeautomation;development;.net;nunit;selenium;best;csharp testing with wisam;console testing;best console testing tool ever;you should try it;</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Mapster" Version="7.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="console-64.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
